@@ -11,15 +11,15 @@ const Temperatura = () => {
         setTemperatura(temperatura - 1)
     }
     return (
-        <Fragment>
+        <Fragment className="container">
             <h2>La temperatura es: {temperatura}</h2>
             <p>
                 {
                  temperatura > 21 ? 'Hace Calor wacho' : 'Ta fresco' 
                 }
             </p>
-            <button onClick={Subir}>Aumentar temperatura</button>
-            <button onClick={Bajar}>Reducir temperatura</button>
+            <button className="btn btn-success btn-block" onClick={Subir}>Aumentar temperatura</button>
+            <button className="btn btn-success btn-block" onClick={Bajar}>Reducir temperatura</button>
         </Fragment>
 
     )

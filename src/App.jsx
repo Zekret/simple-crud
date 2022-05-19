@@ -6,7 +6,7 @@ import Temperatura from './components/Temperatura';
 
 const App = () => { 
   return (
-    <div className="App">
+    <div className="App mt-5">
       <Inicio />
       <Contador />
       <Listado />
