@@ -1,16 +1,18 @@
 import './App.css';
-import Contador from './components/Contador';
-import Inicio from './components/Inicio';
-import Listado from './components/Listado';
-import Temperatura from './components/Temperatura';
+// import Contador from './components/Contador';
+// import Formulario from './components/Formulario';
+// import Inicio from './components/Inicio';
+// import Listado from './components/Listado';
+// import Temperatura from './components/Temperatura';
 
 const App = () => { 
   return (
     <div className="App mt-5">
-      <Inicio />
+      {/* <Inicio />
       <Contador />
       <Listado />
-      <Temperatura />
+      <Temperatura /> */}
+      {/* <Formulario /> */}
     </div>
   );
 }
