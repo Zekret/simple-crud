@@ -8,7 +8,7 @@ import NamesList from './components/NamesList';
 
 const App = () => { 
   return (
-    <div className="container">
+    <div className="container d-flex flex-column justify-content-center align-items-center" style={{ height: '100vh' }}>
       <NamesList />
       {/* <Inicio />
       <Contador />
